@@ -1,0 +1,114 @@
+html {
+    font-size: 12px;
+    background-color: rgb(24, 22, 22);
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.allCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: whitesmoke;
+    border: white;
+    color: black;
+    font-weight: ;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+}
+h1 {
+    font-size: 3.5em; 
+    color: white;
+    font: bolder;
+    margin-bottom: 0; 
+    text-decoration: underline; 
+    text-decoration-style: solid; 
+    text-decoration-thickness: 3px; 
+    text-underline-offset: 6px;
+}
+.glowingText {
+    color: #fff;
+    text-shadow: 0 0 40px rgba(255, 255, 255, 0.9), 
+                 0 0 40px rgba(255, 255, 255, 0.6), 
+                 0 0 40px rgba(255, 255, 255, 0.3), 
+                 0 0 40px rgba(255, 255, 255, 0.9);
+
+
+}
+
+#roundBlackCircle {
+    width: 50vh;
+    height: 50vh;
+    background-color: black;
+    border-radius: 50%;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.9), 
+                0 0 40px rgba(255, 255, 255, 0.6), 
+                0 0 40px rgba(255, 255, 255, 0.3), 
+                0 0 40px rgba(255, 255, 255, 0.9),
+                0 0 40px rgba(255, 255, 255, 0.9), 
+                0 0 40px rgba(255, 255, 255, 0.6), 
+                0 0 40px rgba(255, 255, 255, 0.3), 
+                0 0 40px rgba(255, 255, 255, 0.9);
+    position: absolute;
+            }
+
+#roundWhiteCircle {
+    width: 20vh;
+    height: 20vh;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border: 5px double black;
+    align-items: center;
+    display: flex;
+    justify-content: center;    
+    font-size: 10vh;
+    color: black;
+    font-weight: bolder;
+    font-family: 'Arial';
+    position:absolute
+}
+
+#eventHorizon {
+    width: 5wh;
+    height: 5px;
+    border-radius: 75%;
+    background-color: whitesmoke;
+    align-items: center;
+    display: flex;
+    justify-content: center;   
+    position:absolute;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.9), 
+        0 0 40px rgba(255, 255, 255, 0.6), 
+        0 0 40px rgba(172, 182, 26, 0.3), 
+        0 0 40px rgba(255, 255, 255, 0.9),
+        0 0 40px rgba(255, 255, 255, 0.9), 
+        0 0 40px rgba(255, 255, 255, 0.6), 
+        0 0 40px rgba(201, 208, 150, 0.3), 
+        0 0 40px rgba(255, 255, 255, 0.9);
+}
+
+@media screen and (mint-width: 640px) {
+    html{
+        font-size: 12px;
+    }
+}
+
+@media screen and (mint-width: 900px) {
+    html{
+        font-size: 10px;
+    }
+}
+
