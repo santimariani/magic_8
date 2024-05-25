@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function (event) {
 
     const theQuestion = document.querySelector('#theQuestion');
 
-    myForm.addEventListener('submit', function (event) {
+    theQuestion.addEventListener('submit', function (event) {
         event.preventDefault();
 
         const formData = new FormData(event.target);
