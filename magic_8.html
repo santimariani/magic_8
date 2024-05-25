@@ -6,32 +6,30 @@
     <link rel="stylesheet" href="magic_8.css">
     <title>Magic_8</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap">
-
 </head>
 <body>
     <div class="glowingText" style="display: flex; flex-direction: column; align-items: center; justify-content: center">
         <h1 class="glowingText">DISCOVER YOUR FUTURE</h1>
         <form id="theQuestion" style="margin-top: 0; font-size: 2em; display: flex; align-items: center; justify-content: space-around; width: 35vw">
             <label> ASK YOUR QUESTION 
-                <input type="text" id="theAnswer" name="theAnswer">
+                <input type="text" id="userInput" name="userInput">
             </label>
-            <!-- <button type="submit" class="button" style="align-items: center; height: 6vh; margin-top: 5vh;">THEN <span style="font-weight: bolder">PEER</span> THROUGH <span style="display: block; font-size: 1.75em;">THE HORIZON</span></button>  -->
-            <button type="submit">Click Me!</button>
         </form>
     </div>
-    <p id="showName" style="color: white;"></p>
-
     <div style="display: flex; justify-content: center; align-items: center; margin: auto; position: relative;">
-        <div id="eventHorizon" style="width: 80vw" z-index="1"></div>
-        <div id="eventHorizon" style="width: 60vw" z-index="1"></div>
-        <div id="eventHorizon" style="width: 55vw" z-index="1"></div>
-        <div id="eventHorizon" style="width: 50vw" z-index="1"></div>
-        <div id="eventHorizon" style="width: 45vw" z-index="1"></div>
-        <div id="eventHorizon" style="width: 45vw" z-index="1"></div>
-        <div id="roundBlackCircle" z-index="2"></div>
-        <div id="roundWhiteCircle" z-index="3">8</div>
+        <div class="eventHorizon" style="width: 80vw; z-index: 1;"></div>
+        <div class="eventHorizon" style="width: 60vw; z-index: 1;"></div>
+        <div class="eventHorizon" style="width: 55vw; z-index: 1;"></div>
+        <div class="eventHorizon" style="width: 50vw; z-index: 1;"></div>
+        <div class="eventHorizon" style="width: 45vw; z-index: 1;"></div>
+        <div class="eventHorizon" style="width: 45vw; z-index: 1;"></div>
+        <div class="roundBlackCircle" style="z-index: 2;"></div>
+        <div id="showName" class="roundWhiteCircle" style="color: black; z-index: 3;"></div>
+        <button id="submitButton" type="submit" class="roundWhiteCircle" style="font-size: 1.5em; z-index: 4">
+            NOW PEER <br> THROUGH <br> THE HORIZON </button>
+        <div id="display8" style="z-index: 5;">8</div>
     </div>
+
     <script src="magic_8.js"></script>
 </body>
 </html>
-
