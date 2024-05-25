@@ -35,14 +35,14 @@ body {
 }
 
 h1 {
-    font-size: 3.5em; 
+    font-size: 5vh; 
     color: white;
     font: bolder;
     margin-bottom: 0; 
     text-decoration: underline; 
     text-decoration-style: solid; 
-    text-decoration-thickness: 3px; 
-    text-underline-offset: 6px;
+    text-decoration-thickness: .3vh; 
+    text-underline-offset: .7vh;
 }
 
 .glowingText {
@@ -70,8 +70,8 @@ h1 {
 }
 
 #display8, .roundWhiteCircle {
-    width: 20vh;
-    height: 20vh;
+    width: 22vh;
+    height: 22vh;
     background-color: whitesmoke;
     border-radius: 50%;
     border: 5px double black;
