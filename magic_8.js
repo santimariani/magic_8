@@ -2,16 +2,20 @@
 
 document.addEventListener('DOMContentLoaded', function (event) {
     const theQuestion = document.querySelector('#theQuestion');
+    // document.getElementById('theQuestion')
     const display8 = document.querySelector('#display8');
-    const showName = document.querySelector('#showName');
+    // displayEight
+    const showAnswer = document.querySelector('#showAnswer');
 
     function showButton(event) {
         event.preventDefault();
         display8.style.display = 'none';
-        const allAnswers = ["6*7","7*6","√(42^2)","3!+6","8.4*5","2^21","√(3^6)","84/2","2^5.39","√(3^3.57)","√(10^3)","√(5!+16)","e^ln42","√(φ^3-1)","sinh42","√(2^21)","84/2","√(10^3)","√(5!+16)","e^ln42","√(6^2-6)","cos42","42^(2/2)","√(3^2*2)","φ*26","cos0*42","42^(2/2)","√(3^2*2)","φ*26","sinh42","√(2^21)","84/2","7*6","√(2^21)","84/2","7*6","√(2^21)","84/2","7*6","√(2^21)","84/2","7*6"];
+        const allAnswers = ["6×7", "7×6", "3!×7", "√1764", "21×2", "42", "84/2", "6²-6", "2⁵+10", "7!/720", "e^ln42", "log₇7⁴²", "√(49×36)", "cos0", "ln(e⁴²)", "φ×26", "Γ(5)-18", "√(7×2)⁶", "√(4×21)", "√(6×21)", "4²+34", "√(42²)", "√(2102)", "2⁴.4", "5!÷5-5", "5!-5²+5", "6!/80", "10×4+2", "√6!÷80", "log₃3⁴²", "6+6×6", "2⁶-22", "e³+15", "3²×2", "2⁵.39", "7×6", "√(42²)", "φ×26", "log₇7⁴²", "sin42", "6!÷80"]
         const randomizedAnswers = Math.floor(Math.random() * allAnswers.length);
         const actualAnswer = allAnswers[randomizedAnswers];
-        showName.innerText = actualAnswer;
+        showAnswer.innerText = actualAnswer;
+        // should it return somehting?
+        //return actualAnswer
         };
 
     theQuestion.addEventListener('submit', showButton);
@@ -21,3 +25,5 @@ document.addEventListener('DOMContentLoaded', function (event) {
         submitButton.style.display = 'none';
     });
 });
+
+// console.log(showButton(event))
