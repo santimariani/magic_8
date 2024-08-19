@@ -1,4 +1,4 @@
-# The_Magic_8_Black_Ball_Hole
+# The Magic 8 Black Ball Hole
 
 <b>TECH</b>: HTML • CSS • JavaScript (JS) • Chrome Dev Tools
 
